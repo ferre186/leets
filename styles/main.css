@@ -225,10 +225,33 @@
     transform: translateY(50%);
 }
 
+.banner__text-subtitle {
+    max-width: 1032px;
+    width: 100%;
+}
+
+.banner__subtitle-casha {
+    justify-content: center;
+    text-align: center;
+    ;
+}
+
 .banner__title {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
+    text-align: center;
+}
+
+.banner__title-sasha {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27.5px;
+    color: #FFCB45;
+    text-align: center;
+}
+
+.banner__title-logo {
     text-align: center;
 }
 
@@ -368,6 +391,14 @@
     color: #1D1D1D;
 }
 
+.lets__title-senya {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27.5px;
+    text-align: center;
+    color: #FFCB45;
+}
+
 .lets__card-text-sell {
     font-size: 22px;
     font-weight: 500;
@@ -454,12 +485,7 @@
     line-height: 22.5px;
 }
 
-.mamber {
-    height: 332px;
-    background: url(../img/edavkusna.png) no-repeat center top / cover;
-    justify-content: center;
-    margin-top: 80px;
-}
+
 
 .mamber__text {
     justify-content: center;
@@ -478,6 +504,11 @@
     align-items: center;
     flex-direction: column;
     display: flex;
+    height: 332px;
+    background: url(../img/edavkusna.png) no-repeat center top / cover;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 10px;
 }
 
 .button {
@@ -488,11 +519,13 @@
     border-radius: 50px;
     width: 122px;
     height: 39px;
+    margin-top: 30px;
 }
 
 
 .footer {
     margin-top: 100px;
+    background: #FFF9EA;
 }
 
 .footer__wrap {
